@@ -1,0 +1,110 @@
+    1  reload
+    2  exit
+    3  cd Documentos/Distribuidos/sd2019b-workshop0
+    4  cd ..
+    5  git clone https://github.com/ICESI/ds-ansible.git
+    6  cd ds-ansible
+    7  cd ..
+    8  ls
+    9  cd ds-ansible
+   10  ls
+   11  cd centos7/n
+   12  cd centos7/
+   13  cd centos7
+   14  ls
+   15  cd 01_centos_mirror
+   16  ls
+   17  vi Vagrantfile
+   18  tmux new-session -s distribuidoS
+   19  exit
+   20  tmux new-session -s distribuidos
+   21  ip a
+   22  vi Vagrantfile
+   23  code
+   24  ls
+   25  vi hosts
+   26  vi README.md
+   27  cd playbooks
+   28  vi client.yml
+   29  cd ..
+   30  ls
+   31  vi group_vars
+   32  cd group_vars
+   33  vi all.yml
+   34  cd ..
+   35  cd playbooks
+   36  ls
+   37  vi client.yml
+   38  cd ..
+   39  vagrant up
+   40  cd ~/.ssh/config
+   41  cd ~/.ssh
+   42  vagrant status
+   43  vagrant ssh mirror
+   44  vagrant ssh client
+   45* ls
+   46* ansible-playbook -i hosts playbooks/mirror.yml
+   47* vi host
+   48* vi hosts
+   49* ansible-playbook -i hosts playbooks/mirror.yml
+   50* vagrant ssh mirror
+   51* exit
+   52* vi README.md
+   53* vagrant ssh mirror
+   54* vi README.md
+   55* ls
+   56* vi Vagrantfile
+   57* vi hosts
+   58* exit
+   59* ping icesi.mirror.edu.co
+   60* ls
+   61* vi playbooks/client.yml
+   62* vi Vagrantfile
+   63* vi /etc/hosts
+   64* ls -l
+   65* cd /etc/hosts/
+   66* cd /etc
+   67* cat host
+   68* cat hosts
+   69* ls -l
+   70* chmod +r hosts
+   71* exit
+   72  vi group_vars/all.yml
+   73  vi playbooks/client.yml
+   74  vagrant ssh client
+   75  ansible-playbook -i hosts playbooks/mirror.yml
+   76  ansible-playbook -i hosts playbooks/client.yml
+   77  cd templates
+   78  ls
+   79  cd ..
+   80  tree
+   81  vi templates/repo/icesi.repo
+   82  vi playbooks/client.yml
+   83  vi group_vars/all.yml
+   84  ansible-playbook -i hosts playbooks/client.yml
+   85  vagrant ssh client
+   86  ansible-playbook -i hosts playbooks/client.yml
+   87  vagrant ssh client
+   88* exit
+   89  git init
+   90  ls
+   91  ls .a
+   92  ls -a
+   93  cd ..
+   94  ls
+   95  cd centos7/01_centos_mirror
+   96  ls -a
+   97  rm .git
+   98  rm -d .git
+   99  rm -rf .git
+  100  cd ..
+  101  git init
+  102  gaa
+  103  gcmsg "First commit"
+  104  git config user.email "juan-bol9@hotmail.com"
+  105  git config user.name "juan-bol"
+  106  git remote add origin https://github.com/juan-bol/ds-ansible.git
+  107  git remote remove origin
+  108  git remote add origin https://github.com/juan-bol/ds-ansible.git
+  109  git push -u origin master
+  110  mkdir histories
