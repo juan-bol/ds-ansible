@@ -1,0 +1,96 @@
+    1  exit
+    2  tmux new-session -s distribuidos
+    3  cd Documentos/Distribuidos
+    4  ls
+    5  cd ds-ansible
+    6  ls
+    7  cd centos7
+    8  tree
+    9  ls
+   10  cd 01_centos_mirror
+   11  cd playbooks
+   12  ..
+   13  ls
+   14  cd group_vars
+   15  vi all.yml
+   16  vagrant status
+   17  cd ..
+   18  vagrant status
+   19  vagrant up
+   20* pwd
+   21* cd Documentos/Distribuidos/ds-ansible/centos7/01_centos_mirror
+   22* vi /etc/hosts
+   23* vi Vagrantfile
+   24* vi /etc/hosts
+   25* vi Vagrantfile
+   26* tree
+   27* vi playbooks/client.yml
+   28* vi group_vars/all.yml
+   29* vagrant destroy mirror
+   30* vagrant status
+   31* ansible-playbook -i playbooks/client.yml
+   32  vi playbooks/client.yml
+   33* tmux a -t distribuidos
+   34* vi playbooks/client.yml
+   35* vi playbooks/mirror.yml
+   36* exit
+   37  vi playbooks/client.yml
+   38  vi group_vars/all.yml
+   39  vi playbooks/client.yml
+   40* vi group_vars/all.yml
+   41* ansible-playbook -i playbooks/client.yml
+   42* ansible-playbook -i hosts playbooks/client.yml
+   43  vi group_vars/all.yml
+   44* ansible-playbook -i hosts playbooks/client.yml
+   45  vi group_vars/all.yml
+   46  ansible-playbook -i hosts playbooks/client.yml
+   47  vi group_vars/all.yml
+   48  vi playbooks/client.yml
+   49* ansible-playbook -i hosts playbooks/client.yml
+   50* exit
+   51* vi group_vars/all.yml
+   52* vi playbooks/client.yml
+   53* ansible-playbook -i hosts playbooks/client.yml
+   54  vi group_vars/all.yml
+   55* vi /etc/hosts
+   56* tree
+   57* vi hosts
+   58* vi Vagrantfile
+   59* vi hosts
+   60* vi playbooks/client.yml
+   61  vi group_vars/all.yml
+   62* ansible-playbook -i hosts playbooks/client.yml
+   63* vi playbooks/client.yml
+   64* ansible-playbook -i hosts playbooks/client.yml
+   65* vagrant ssh client
+   66* vi playbooks/client.yml
+   67* vi README.md
+   68* ~                                                                                    │yum --disablerepo="*" --enablerepo="icesirepo" install nmap
+   69* yum --disablerepo="*" --enablerepo="icesirepo" install node
+   70* sudo yum --disablerepo="*" --enablerepo="icesirepo" install node
+   71* vagrant ssh client
+   72* vi playbooks/client.yml
+   73* vi hosts
+   74* vi playbooks/client.yml
+   75* ansible-playbook -i hosts playbooks/client.yml
+   76* vi playbooks/client.yml
+   77  vi group_vars/all.yml
+   78* vi Vagrantfile
+   79* tree
+   80* vi Vagrantfile
+   81* tree
+   82* vi ansible.cfg
+   83* vi templates/repo/icesi.repo
+   84* vi playbooks/client.yml
+   85  tree
+   86  vi ansible.cfg
+   87  vi group_vars/all.yml
+   88  ansible-playbook -i hosts playbooks/client.yml
+   89  destroy -f client
+   90  vagrant destroy client
+   91  vagrant up client
+   92  ansible-playbook -i hosts playbooks/client.yml
+   93  cd ..
+   94  ls
+   95  cd histories
+   96  ls

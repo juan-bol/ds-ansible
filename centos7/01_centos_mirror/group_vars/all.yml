@@ -1,5 +1,7 @@
 packages:
-  - nmap
+    # - nmap
     #- python36
     #- python36-pip
     #- postgresql
+
+mirror_ip: 192.168.131.121 icesi.mirror.edu.co
